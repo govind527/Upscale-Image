@@ -56,37 +56,9 @@ In contrast to SRGAN, which claimed that **deeper models are increasingly diffic
   <img height="180" src="figures/RRDB.png">
 </p>
 
-## Network Interpolation
-We propose the **network interpolation strategy** to balance the visual quality and PSNR.
 
-<p align="center">
-  <img height="500" src="figures/net_interp.jpg">
-</p>
 
-We show the smooth animation with the interpolation parameters changing from 0 to 1.
-Interestingly, it is observed that the network interpolation strategy provides a smooth control of the RRDB_PSNR model and the fine-tuned ESRGAN model.
 
-<p align="center">
-  <img height="480" src="figures/81.gif">
-  &nbsp &nbsp
-  <img height="480" src="figures/102061.gif">
-</p>
-
-## Qualitative Results
-PSNR (evaluated on the Y channel) and the perceptual index used in the PIRM-SR challenge are also provided for reference.
-
-<p align="center">
-  <img src="figures/qualitative_cmp_01.jpg">
-</p>
-<p align="center">
-  <img src="figures/qualitative_cmp_02.jpg">
-</p>
-<p align="center">
-  <img src="figures/qualitative_cmp_03.jpg">
-</p>
-<p align="center">
-  <img src="figures/qualitative_cmp_04.jpg">
-</p>
 
 ## Ablation Study
 Overall visual comparisons for showing the effects of each component in
