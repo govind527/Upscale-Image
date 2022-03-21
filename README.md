@@ -56,17 +56,15 @@ In contrast to SRGAN, which claimed that **deeper models are increasingly diffic
   <img height="180" src="figures/RRDB.png">
 </p>
 
+## Network Interpolation
+We propose the **network interpolation strategy** to balance the visual quality and PSNR.
 
-
-
-
-## Ablation Study
-Overall visual comparisons for showing the effects of each component in
-ESRGAN. Each column represents a model with its configurations in the top.
-The red sign indicates the main improvement compared with the previous model.
 <p align="center">
-  <img src="figures/abalation_study.png">
+  <img height="500" src="figures/net_interp.jpg">
 </p>
+
+We show the smooth animation with the interpolation parameters changing from 0 to 1.
+Interestingly, it is observed that the network interpolation strategy provides a smooth control of the RRDB_PSNR model and the fine-tuned ESRGAN model.
 
 
 
