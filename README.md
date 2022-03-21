@@ -1,16 +1,7 @@
 # Upscale-Image
 This is the project I have done to upscale the blurry Image.
 
-## ESRGAN (Enhanced SRGAN) [:rocket: [BasicSR](https://github.com/xinntao/BasicSR)]
-
-
-
-The following is the original README:
-
-#### The training codes are in :rocket: [BasicSR](https://github.com/xinntao/BasicSR). This repo only provides simple testing codes, pretrained models and the network interpolation demo.
-
-[BasicSR](https://github.com/xinntao/BasicSR) is an **open source** image and video super-resolution toolbox based on PyTorch . <br>
-It includes methods such as **EDSR, RCAN, SRResNet, SRGAN, ESRGAN, EDVR**, etc. It now also supports **StyleGAN2**.
+## ESRGAN (Enhanced SRGAN) [:rocket:]
 
 ### Enhanced Super-Resolution Generative Adversarial Networks
 By Xintao Wang, [Ke Yu](https://yuke93.github.io/), Shixiang Wu, [Jinjin Gu](http://www.jasongt.com/), Yihao Liu, [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ&hl=en), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)
