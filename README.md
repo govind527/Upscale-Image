@@ -1,4 +1,4 @@
-# Upscale-Image
+# Upscale-Image Using ESRGAN
 This is the project I have done to upscale the blurry Image.
 
 ## ESRGAN (Enhanced SRGAN) [:rocket:]
