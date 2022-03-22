@@ -1,6 +1,11 @@
 # Upscale-Image Using ESRGAN
 This is the project I have done to upscale the blurry Image.
 
+
+ESRGAN is the enhanced version of the SRGAN. Authors of the ESRGAN tried to enhance the SRGAN by modifying the model architecture and loss functions.
+
+## GAN
+Before diving into the ESRGAN first let’s get a high-level understanding of the GAN. GANs are capable of generating Fake data that looks realistic. Some of the GAN applications are to enhance the quality of the image. The high-level architecture of the GAN contains two main networks namely the generator network and the discriminator network. The generator network tries to generate the fake data and the discriminator network tries to distinguish between real and fake data, hence helping the generator to generate more realistic data.
 ## ESRGAN (Enhanced SRGAN) [:rocket:]
 
 ### Enhanced Super-Resolution Generative Adversarial Networks
