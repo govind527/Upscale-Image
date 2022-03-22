@@ -26,6 +26,8 @@ python test.py
 ```
 5. The results are in `./results` folder.
 
+### Note: I train this Model using CPU(cuz i don't own GPU) so for GPU you need change the *device* value in file `test.py` 
+
 
 ## GAN
 Before diving into the ESRGAN first let’s get a high-level understanding of the GAN. GANs are capable of generating Fake data that looks realistic. Some of the GAN applications are to enhance the quality of the image. The high-level architecture of the GAN contains two main networks namely the generator network and the discriminator network. The generator network tries to generate the fake data and the discriminator network tries to distinguish between real and fake data, hence helping the generator to generate more realistic data.
