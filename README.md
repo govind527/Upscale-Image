@@ -1,11 +1,12 @@
 # Upscale-Image Using ESRGAN
 This is the project I have done to upscale the blurry Image.
 
-ESRGAN is the enhanced version of the SRGAN. Authors of the ESRGAN tried to enhance the SRGAN by modifying the model architecture and loss functions.
+- ESRGAN is the enhanced version of the SRGAN. Authors of the ESRGAN tried to enhance the SRGAN by modifying the model architecture and loss functions.
 
 # Steps to use this Model
 
 #### Dependencies
+
 - Python 3
 - [PyTorch >= 1.0](https://pytorch.org/) (CUDA version >= 7.5 if installing with CUDA. [More details](https://pytorch.org/get-started/previous-versions/))
 - Python packages:  `pip install numpy opencv-python`
@@ -31,12 +32,12 @@ Before diving into the ESRGAN first let’s get a high-level understanding of th
 
 ![](https://raw.githubusercontent.com/govind527/Upscale-Image/main/Art%20image.png)
 
-## ESRGAN (Enhanced SRGAN) [:rocket:]
 
-### Enhanced Super-Resolution Generative Adversarial Networks:
+
+## ESRGAN (Enhanced SRGAN) Enhanced Super-Resolution Generative Adversarial Networks:
 The main architecture of the ESRGAN is the same as the SRGAN with some modifications. ESRGAN has Residual in Residual Dense Block(RRDB) which combines multi-level residual network and dense connection without Batch Normalization.
 
-## ESRGAN
+
 ESRGAN improve the [SRGAN](https://arxiv.org/abs/1609.04802) from three aspects:
 1. adopt a deeper model using Residual-in-Residual Dense Block (RRDB) without batch normalization layers.
 2. employ [Relativistic average GAN](https://ajolicoeur.wordpress.com/relativisticgan/) instead of the vanilla GAN.
