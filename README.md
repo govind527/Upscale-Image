@@ -13,9 +13,27 @@ Before diving into the ESRGAN first let’s get a high-level understanding of th
 ### Enhanced Super-Resolution Generative Adversarial Networks:
 The main architecture of the ESRGAN is the same as the SRGAN with some modifications. ESRGAN has Residual in Residual Dense Block(RRDB) which combines multi-level residual network and dense connection without Batch Normalization.
 
+## ESRGAN
+ESRGAN improve the [SRGAN](https://arxiv.org/abs/1609.04802) from three aspects:
+1. adopt a deeper model using Residual-in-Residual Dense Block (RRDB) without batch normalization layers.
+2. employ [Relativistic average GAN](https://ajolicoeur.wordpress.com/relativisticgan/) instead of the vanilla GAN.
+3. improve the perceptual loss by using the features before activation.
+
+In contrast to SRGAN, which claimed that **deeper models are increasingly difficult to train**, our deeper ESRGAN model shows its superior performance with easy training.
+
+<p align="center">
+  <img height="120" src="figures/architecture.jpg">
+</p>
+<p align="center">
+  <img height="180" src="figures/RRDB.png">
+</p>
+
 By Xintao Wang, [Ke Yu](https://yuke93.github.io/), Shixiang Wu, [Jinjin Gu](http://www.jasongt.com/), Yihao Liu, [Chao Dong](https://scholar.google.com.hk/citations?user=OSDCB0UAAAAJ&hl=en), [Yu Qiao](http://mmlab.siat.ac.cn/yuqiao/), [Chen Change Loy](http://personal.ie.cuhk.edu.hk/~ccloy/)
 
 
+### Relativistic Discriminator
+
+Besides using standard discriminator ESRGAN uses the relativistic GAN, which tries to predict the probability that the real image is relatively more realistic than a fake image.
 
 #### BibTeX
 
