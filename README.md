@@ -95,6 +95,9 @@ For optimization, Adam optimizer is used with default values.
 ## Conclusion 
 we have seen how ESRGAN outperforms its earlier version, SRGAN, and practically we have seen how to implement this environment in your local machine. For More information visit the [original paper](https://arxiv.org/pdf/1809.00219.pdf)
 
+![Original Image](https://raw.githubusercontent.com/govind527/Upscale-Image/main/LR/Original-Image.png)
+![Super-Resolution Image](https://raw.githubusercontent.com/govind527/Upscale-Image/main/results/Super-Resolution-Image.png)
+
 ## Credit
 @xinntao
 
