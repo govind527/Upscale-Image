@@ -1,7 +1,6 @@
 # Upscale-Image Using ESRGAN
 This is the project I have done to upscale the blurry Image.
 
-
 ESRGAN is the enhanced version of the SRGAN. Authors of the ESRGAN tried to enhance the SRGAN by modifying the model architecture and loss functions.
 
 ## GAN
