@@ -26,7 +26,7 @@ python test.py
 ```
 5. The results are in `./results` folder.
 
-### Note: I train this Model using CPU(cuz i don't own GPU) so for GPU you need change the *device* value in file `test.py` 
+### Note: I train this Model using CPU(cuz i don't own GPU) so for GPU you need change the **device** value in file `test.py` 
 
 
 ## GAN
