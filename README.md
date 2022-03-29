@@ -1,7 +1,7 @@
 # Upscale-Image Using ESRGAN
 This is the Project I have done to upscale the **Blurry and Low Resolution Image**.
 
-- ESRGAN is the enhanced version of the SRGAN. Authors of the ESRGAN tried to enhance the SRGAN by modifying   
+- ESRGAN is the enhanced version of the SRGAN. Authors of the ESRGAN tried to enhance the SRGAN    
 
 # Steps to use this Model
 
