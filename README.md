@@ -68,7 +68,7 @@ gen_loss = K.mean(K.binary_crossentropy(K.zeros_like(real_logit),real_logit)+K.b
 ```
 
 ### Perceptual loss
-A more effective perceptual loss is introduced by constraining features before the activation function.
+A More effective perceptual loss is introduced by constraining features before the activation function.
 
 ```py
 
